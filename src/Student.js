@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
 import Viewstudent from "./Viewstudent";
 import Addstudent from "./Addstudent";
+import Editstudent from "./Editstudent";
 import "./Student.css";
 
 export default function Student(){
@@ -24,6 +25,7 @@ export default function Student(){
       <Routes>
  <Route path="/" element={<Viewstudent />} />
   <Route path="/addstudent" element={<Addstudent />} />
+  <Route path="/editstudent" element={<Editstudent />} />
 </Routes> 
            </div>
     );
