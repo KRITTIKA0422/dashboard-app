@@ -1,0 +1,23 @@
+.student_button{
+    background-color:cornflowerblue;
+    padding: 15px;
+    margin-left: 25vw;
+    border-radius: 10px;
+    margin-right: 5px;
+ 
+   
+}
+.mentor_button{
+background-color: cadetblue;
+padding: 15px;
+border-radius: 10px;
+margin-right: 5px;   
+}
+.assigns_button{
+background-color: lightblue;
+padding: 15px;
+border-radius: 10px;
+margin-right: 5px;
+
+    
+}

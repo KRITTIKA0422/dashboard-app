@@ -42,7 +42,7 @@ return(
     <p className="student-batch"><b>Batch ID: </b>{student.batch}</p>
     <p className="student-join"><b>Joining Date: </b>{student.join}</p>
     <p className="student-duration"><b>Course Duration (in months): </b>{student.duration}</p>
-    {deleteButton} <Button variant="contained" color="primary" onClick={()=>[<Editstudent eid={student.id}/>,navigate("/student/editstudent")]}>EDIT</Button>
+   {deleteButton} <Button variant="contained" color="primary" onClick={()=>[<Editstudent eid={student.id}/>,navigate("/student/editstudent")]}>EDIT</Button>
   </div>
 );
 }

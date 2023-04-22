@@ -29,7 +29,7 @@ export default function Editmentor({eid}){
           
     return(
         <div className="mentorform_container">
-        <h2 className="mentorheader">Enter New Mentor Details</h2>
+        <h2 className="mentorheader">Edit Mentor Details</h2>
         <form  className="mentor_form" onSubmit={formik.handleSubmit}>
         <TextField id="name" label="Mentor Name" variant="outlined"  onChange={formik.handleChange}
         value={formik.values.name}
