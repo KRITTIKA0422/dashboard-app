@@ -1,0 +1,31 @@
+.student-specs{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .student-container{
+    width:340px;
+    margin: 2vw;
+  }
+  .student-poster{
+    width: 340px;
+    height: 600px;
+    object-fit: cover;
+  }
+  .student-name{
+    font-size: 24px;
+    margin: 0;
+  }
+  .student-batch, .student-join, .student-duration {
+    margin-top: 0;
+  }
+  .student-course{
+    font-size: 18px;
+  }
+  .student-list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+  }
+  
