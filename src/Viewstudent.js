@@ -32,11 +32,11 @@ function Studentdata({student,deleteButton}){
 return(
   <div className="student-container">
     <img src={student.img} alt={student.name} className="student-poster"></img>
-    <div className="student-specs"><h2 className="student-name">STUDENT NAME- {student.name}</h2>
-    <p  className="student-course">COURSE- {student.course}</p></div>
-    <p className="student-batch">BATCH ID- {student.batch}</p>
-    <p className="student-join">JOINING DATE- {student.join}</p>
-    <p className="student-duration">COURSE DURATION(IN MONTHS) {student.duration}</p>
+    <div className="student-specs"><h2 className="student-name">STUDENT NAME: {student.name}</h2>
+    <p  className="student-course">COURSE: {student.course}</p></div>
+    <p className="student-batch">BATCH ID: {student.batch}</p>
+    <p className="student-join">JOINING DATE: {student.join}</p>
+    <p className="student-duration">COURSE DURATION (IN MONTHS): {student.duration}</p>
     {deleteButton}  
   </div>
 );
