@@ -1,23 +1,19 @@
-.student_button{
-    background-color:cornflowerblue;
-    padding: 15px;
-    margin-left: 25vw;
-    border-radius: 10px;
-    margin-right: 5px;
- 
-   
+.imageflex{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: sticky;
 }
-.mentor_button{
-background-color: cadetblue;
-padding: 15px;
-border-radius: 10px;
-margin-right: 5px;   
-}
-.assigns_button{
-background-color: lightblue;
-padding: 15px;
-border-radius: 10px;
-margin-right: 5px;
+.imageflex img{
+    height:300px;
+    width: 400px;
 
-    
+}
+.title{
+    margin-left:25vw ;
+    margin-top: 10vh;
+    font-size: 45px;
+    font-weight: bold;
+    color:rgb(56, 120, 238);
 }

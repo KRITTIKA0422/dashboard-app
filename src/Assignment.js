@@ -17,7 +17,6 @@ export default function Assignment(){
         <Toolbar>
         <Button color="inherit" onClick={()=>navigate("/assign")}>ASSIGNED MENTOR-STUDENT</Button>
         <Button color="inherit" onClick={()=>navigate("/assign/assignform")}>ASSIGN MENTOR</Button>
-        <Button color="inherit" onClick={()=>navigate("/")}>HOME PAGE</Button>
         </Toolbar>
       </AppBar>
       </nav> 

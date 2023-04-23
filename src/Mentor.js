@@ -19,7 +19,6 @@ export default function Mentor(){
             <Toolbar>
             <Button color="inherit" onClick={()=>navigate("/mentor")}>VIEW MENTORS</Button>
             <Button color="inherit" onClick={()=>navigate("/mentor/addmentor")}>ADD MENTORS</Button>
-            <Button color="inherit" onClick={()=>navigate("/")}>HOME PAGE</Button>
             </Toolbar>
           </AppBar>
           </nav> 

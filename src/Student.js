@@ -18,7 +18,6 @@ export default function Student(){
         <Toolbar>
         <Button color="inherit" onClick={()=>navigate("/student")}>VIEW STUDENTS</Button>
         <Button color="inherit" onClick={()=>navigate("/student/addstudent")}>ADD STUDENT</Button>
-        <Button color="inherit" onClick={()=>navigate("/")}>HOME PAGE</Button>
         </Toolbar>
       </AppBar>
       </nav> 

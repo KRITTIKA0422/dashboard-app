@@ -1,24 +1,14 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import { useNavigate } from 'react-router-dom';
-import Student from "./Student";
-import Mentor from "./Mentor";
 import "./Mainpage.css";
-import Assignment from "./Assignment";
+
 
 export default function Mainpage(){
-    const navigate = useNavigate(); 
     return(
         <div className="main">
-          <button className="student_button"  onClick={()=>navigate("/student")}>STUDENT DASHBOARD</button>
-          <button className="mentor_button"  onClick={()=>navigate("/mentor")}>MENTOR DASHBOARD</button>
-          <button className="assigns_button"  onClick={()=>navigate("/assign")}>MENTOR-STUDENT ASSIGNMENT</button>
-
-  <Routes>
-  <Route path="/student/*" element={<Student />} />
-  <Route path="/mentor/*" element={<Mentor />} />
-  <Route path="/assign/*" element={<Assignment />} />
-</Routes> 
+          <div className="imageflex"><img src="https://i.gifer.com/7nvU.gif" alt="img1"/>
+          <img src="https://www.eng.rmutt.ac.th/wp-content/uploads/2020/05/20200510-New-020-1200x480.jpg" alt="img2"/>
+          <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/025-TAS-Overview-Blog-Header-animation-AV-R2.gif" alt="img3"/></div>
+         <div className="title">Welcome to Mentor-Student Dashboard</div>
            </div>
     );
 }
